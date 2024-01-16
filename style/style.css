@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.body{
+  font-family: 'Hind Siliguri';
+
+}
+
+.container{
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+.header__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header__container  .logo img{
+  width: 106px;
+  height: 25px;
+}
+
+.header__container  .nav ul {
+  list-style: none;
+  display: flex;
+  align-items:center;
+  gap: 40px;
+}
+
+.header__container  .nav ul a {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+
+text-decoration: none;
+transition: all 0,5s;
+}
+
+.header__container  .nav  ul  a:hover {
+  color:#236bbd;
+}
+
+.header__container .header-icons a {
+text-decoration: none;
+}
+
+.header__container .header-icons {
+  display: flex;
+  gap: 30px;
+}
+.header__container .header-icons a img {
+width: 25px;
+}
+
+.main__container {
+  display: flex;
+  align-items:center;
+max-width: 1236px;
+}
+
+.main__container  .main-text  .sup-title {
+  color: var(--c-72535, #C72535);
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+}
+
+.main__container .main-text  h1 {
+  color: #030D15;
+  font-family: Hind Siliguri;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 73.2px;
+  margin-top: 25px;
+  margin-bottom: 30px; 
+
+  width: 530px;
+}
+
+.main__container .main-text  h1 span { 
+  color: var(--p, #247CC0);
+  font-family: Hind Siliguri;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 73.2px; /* 120% */
+
+  background-color:#9ac9ec;
+  padding: 0;
+  height: 65px;
+  display: inline-block;
+}
+
+.main__container .main-text p {
+  color: #030D15;
+font-family: Hind Siliguri;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 135% */
+margin-bottom: 36px; ;
+}
+
+.main__container  .price-button  button {
+  background: #247CC0;
+  padding: 16px 35px;
+  border:none;
+
+  color: #FFF;
+font-family: Hind Siliguri;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+cursor: pointer;
+transition: all 0,5s;
+margin-right: 31px;
+}
+
+.main__container  .price-button  button:hover{
+  background-color:#103055;
+}
+.main__container  .price-button  .new-price{
+  color: #030D15;
+text-align: center;
+font-family: Hind Siliguri;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 135% */
+margin-right: 18px;
+}
+
+.main__container  .price-button  .old-price {
+  color: #030D15;
+text-align: center;
+font-family: Hind Siliguri;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px; /* 168.75% */
+text-decoration: line-through;
+opacity: 0.5;
+}
+
+.brends__container{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background: #FFF;
+box-shadow: 0px -1.73968px 1.20532px 0px rgba(174, 174, 174, 0.02), 0px 0.19008px 4.14347px 0px rgba(174, 174, 174, 0.03), 0px 6.77214px 9.61331px 0px rgba(174, 174, 174, 0.04), 0px 19.8401px 19.14056px 0px rgba(174, 174, 174, 0.05), 0px 43.751px 36.44142px 0px rgba(174, 174, 174, 0.06), 0px 100px 80px 0px rgba(174, 174, 174, 0.08);
+margin-bottom: 100px;
+}
+
+.section__container{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+}
+.section{
+  display: flex;
+  flex-direction: flex;
+  margin-bottom: 100px;
+}
+
+.section1 h1 {
+  color: var(--B, #030D15);
+text-align: center;
+font-family: Hind Siliguri;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 9px;
+margin-right: 300px;
+}
+
+.section p {
+  color: var(--B, #030D15);
+font-family: Hind Siliguri;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+width: 256px;
+margin-bottom: 20px;
+
+}
+.section1 .new-price {
+  color: #030D15;
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 135% */
+  margin-right: 18px;
+}
+.section1 .old-price {
+  color: #030D15;
+text-align: center;
+font-family: Hind Siliguri;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px; /* 168.75% */
+text-decoration: line-through;
+opacity: 0.5;
+}
+.section2 h1 {
+  color: var(--B, #030D15);
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 9px;
+  margin-right: 300px;
+
+}
+.section2 p {
+  color: var(--B, #030D15);
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+  width: 256px;
+  margin-bottom: 20px;
+
+}
+.section2  .new-price{
+  color: #030D15;
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 135% */
+  margin-right: 18px;
+}
+
+.section2 .old-price {
+  color: #030D15;
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px; /* 168.75% */
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+
+.action__container{
+width: 555px;
+height: 296px;
+
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+
+display: flex;
+align-items:center;
+
+
+
+}
+
+.dron_image{
+  display: flex;
+  align-items:center;
+  margin-left: 300px;
+}
+.action1 {
+  padding-top: 107px;
+  padding-bottom: 107px;
+}
+.action1 h3 {
+  color: var(--e-6-edf-2, #F4F9FC);
+font-family: Hind Siliguri;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px; /* 168.75% */
+text-transform: uppercase;
+opacity: 0.6;
+}
+
+
+.describe{
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  gap:30px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+
+.dron__container{
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+}
+
+.dron-title{
+  margin-left: 35px;
+  margin-top: 70px;
+  margin-bottom: 74px;
+}
+
+.dron__container .dron-title p{
+  color: var(--e-6-edf-2, #F4F9FC);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.dron__container .dron-title h3{
+  color: var(--e-6-edf-2, #F4F9FC);
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.3px; /* 130% */
+  margin-bottom: 7px;
+
+}
+
+.dron__container .dron-title a{
+  color: var(--e-6-edf-2, #F4F9FC);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.dron__container img{
+  width: 275px;
+  height: 231px;
+  transform: rotate(28.007deg);
+  flex-shrink: 0;
+  margin-top: 22px;
+}
+
+.camera__container{
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: linear-gradient(257deg, #008BF0 -13.2%, #D943C9 130.95%);
+}
+
+.camera-title{
+  margin-left: 35px;
+  margin-top: 70px;
+  margin-bottom: 74px;
+}
+
+.camera__container .camera-title p{
+  color: var(--e-6-edf-2, #F4F9FC);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 168.75% */
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.camera__container .camera-title h3{
+  color: var(--e-6-edf-2, #F4F9FC);
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.3px; /* 130% */
+  margin-bottom: 7px;
+}
+
+.camera__container .camera-title a{
+  color: var(--e-6-edf-2, #F4F9FC);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 192.857% */
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.camera__container img{
+  width: 275px;
+  height: 231px;
+  transform: rotate(28.007deg);
+  flex-shrink: 0;
+  margin-top: 22px;
+}
+
